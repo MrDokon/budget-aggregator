@@ -1,6 +1,6 @@
 # Budget Aggregator
 
-A scalable personal budget aggregator designed to import and analyze bank transactions. Leveraging an event-driven architecture with RabbitMQ and MongoDB, the system efficiently handles large CSV datasets asynchronously. It transforms raw data into detailed spending statistics per category and IBAN, providing valuable insights for financial planning."
+A scalable personal budget aggregator designed to import and analyze bank transactions. Leveraging an event-driven architecture with RabbitMQ and MongoDB, the system efficiently handles large CSV datasets asynchronously. It transforms raw data into detailed spending statistics per category and IBAN, providing valuable insights for financial planning.
 
 ## Key Features
 
