@@ -173,6 +173,12 @@ To change these settings, update `src/main/resources/application.properties`.
 
 ![Job Status DB](screenshots/status_check_dbeaver.png)
 
+*Completed with errors*
+![Job Status Completed with Errors](screenshots/completed_with_errors_check_status.png)
+
+*Import failed*
+![Import failed](screenshots/failed_check_status.png)
+
 ### 3. Aggregated Monthly Statistics
 *Result of MongoDB aggregation showing grouped expenses.*
 ![Statistics JSON](screenshots/get_aggregated_statistics.png)
