@@ -9,6 +9,7 @@ A scalable personal budget aggregator designed to import and analyze bank transa
 * **Idempotency**: Duplicate detection logic ensures data consistency even if the same file is uploaded twice.
 * **Aggregation Engine**: Utilizes MongoDB Aggregation Framework for calculating monthly spending statistics.
 * **High Performance**: Custom CSV streaming parser (OpenCSV) with `Spliterator` for low memory footprint.
+* **Robust Testing**: Comprehensive end-to-end integration tests utilizing **Testcontainers** (spinning up real MongoDB and RabbitMQ instances) to ensure high reliability and production-readiness.
 
 ## Tech Stack
 
@@ -18,6 +19,7 @@ A scalable personal budget aggregator designed to import and analyze bank transa
     * Spring Data MongoDB
     * Spring AMQP (RabbitMQ)
     * Spring Validation
+* **Testcontainers** (for Integration Testing)
 * **MongoDB** (Database)
 * **RabbitMQ** (Message Broker)
 * **Gradle** (Build Tool)
